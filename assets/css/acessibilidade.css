@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.interna {
+  border-bottom: 20px solid #30aaa7;
+}
+.acessibilidade-site  .conteudo {
+  padding:30px;
+}
+.acessibilidade-site  h1,  .acessibilidade-site  h2 {
+  position: relative;
+  font-size: 2.0em!important;
+  color: #286fad;
+  font-weight: 300;
+  margin: 20px 0 20px 0 !important;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Novecentosanswide-Light', sans-serif;
+}
+.acessibilidade-site  h2 {
+  margin-top: 40px!important;
+}
+.acessibilidade-site .mac {
+  background:url(../img/mac.png) no-repeat;
+  padding:8px 0 0 35px;
+  height:28px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.acessibilidade-site .microsoft {
+  background:url(../img/microsoft.png) no-repeat;
+  padding:5px 0 0 35px;
+  height:28px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+.acessibilidade-site  h1:after, .acessibilidade-site  h2:after {
+  content: "";
+  position:absolute;
+  height: 3px;
+  width: 139px;
+  left:0;
+  top:130%;
+  background:#1fc7bc;
+}
+.acessibilidade-site  p {
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+  line-height: 33px;  
+}
+.acessibilidade-site p span {
+  border:solid 1px #000;
+  padding: 2px 3px;
+  border-radius: 3px;
+  background: #FFF;
+}
+.acessibilidade-site ul li {
+  font-family: 'Roboto', sans-serif;
+  margin:8px 0;
+  list-style:disc;
+  list-style-position:inside;
+}
+.acessibilidade-site a {
+  font-weight:700;
+  color:#30aaa7;
+  text-decoration:underline;
+}

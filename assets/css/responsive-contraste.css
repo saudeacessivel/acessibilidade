@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/******************
+	MÁXIMO 1200px 
+******************/
+@media (max-width: 1200px) {
+	
+}
+
+/******************
+	MÁXIMO 992px 
+******************/
+@media (max-width: 992px) {
+
+	.busca input[type="submit"] { 
+		background: #000!important;
+	}
+
+}
+
+/******************
+	MÁXIMO 768px 
+******************/
+@media (max-width: 768px) {
+
+}
+
+/******************
+	MÁXIMO 645px 
+******************/
+@media (max-width: 668px) {
+
+}
+
+/******************
+	MÁXIMO 480px 
+******************/
+@media (max-width: 480px) {
+
+}
+
+
+/******************
+	MÁXIMO 468px 
+******************/
+@media (max-width: 468px) {
+
+}

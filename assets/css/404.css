@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    color: #444444;
+    background-color: #072239;
+    font-family: 'Novecentosanswide-Normal', sans-serif;
+    font-size: 80%;
+}
+#page{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 60%;
+    margin: 24px auto;
+    padding: 12px;
+    box-shadow: 10px 10px #00050A;
+    overflow: hidden;
+}
+#header {
+    float: left;
+    width: 100%;
+    padding: 6px;
+    padding: 45px 0;
+}
+h1 { 
+    font-size: 60px;
+    margin: 0 30px;
+    padding-left: 75px;
+    min-height: 85px;
+    background: url(../img/erro-304.svg) no-repeat !important;
+    background-size: 55px!important;
+}
+h2 { font-size: 1.2em; }
+.status3xx { background-color: #475076; color: #FFFFFF; }
+.status4xx { background-color: #072239; color: #FFFFFF; }
+.status5xx { background-color: #F2E81A; color: #000000; }
+#content {
+    width: 100%;
+    float: left;
+    padding: 24px 0 24px 14px;
+}
+#footer {
+    color: #666666;
+    background: #f9f9f9;
+    padding: 10px 20px;
+    border-top: 5px #efefef solid;
+    font-size: 0.8em;
+    text-align: center;
+}
+#footer a {
+    color: #999999;
+}
